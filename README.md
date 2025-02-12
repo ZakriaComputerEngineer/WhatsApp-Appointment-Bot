@@ -30,18 +30,12 @@ A WhatsApp bot that simplifies appointment booking using templated replies throu
    pip install Flask twilio
    ```
 
-### **3. Set up the database**
-   ```bash
-   python Appointment_bot.py
-   ```
-   This creates a `salon.db` file for customer data.
-
-### **4. Run the Flask app locally**
+### **3. Run the Flask app locally**
    ```bash
    python Appointment_bot.py
    ```
 
-### **5. Install and Start ngrok**
+### **4. Install and Start ngrok**
    Download and install `ngrok` from [https://ngrok.com/download](https://ngrok.com/download).
 
    Start `ngrok` with the following command:
@@ -50,13 +44,13 @@ A WhatsApp bot that simplifies appointment booking using templated replies throu
    ```
    Copy the public URL provided by `ngrok` (e.g., `https://your-ngrok-url.ngrok.io`).
 
-### **6. Set Twilio Webhook**
+### **5. Set Twilio Webhook**
    Go to your Twilio Console and set the Webhook URL for incoming messages to:
    ```
    https://your-ngrok-url.ngrok.io/webhook
    ```
 
-### **7. Replace placeholders in the code**
+### **6. Replace placeholders in the code**
    - `account_sid = 'ENTER YOUR TWILIO ACCOUNT SID HERE'`
    - `auth_token = 'ENTER YOUR TWILIO AUTH TOKEN HERE'`
    - Replace template IDs in the `send_template_message()` function with your Twilio template IDs.
