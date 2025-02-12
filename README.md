@@ -3,6 +3,7 @@
 A WhatsApp bot that simplifies appointment booking using templated replies through Twilio API. The bot integrates with a business API to register appointments seamlessly, eliminating the need for website visits or calls to reception. It stores customer information in a database for personalized interactions.
 
 ![6](https://github.com/user-attachments/assets/4c204fc2-fe2f-44a2-9726-bc2e41c3a59c)
+![7](https://github.com/user-attachments/assets/84296b63-ca57-445f-a511-23b9caf0ff82)
 
 ---
 
